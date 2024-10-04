@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    letter-spacing: 0.5px;
+}
+
+body {
+    background-color: #090e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+#calc-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* .form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+    color: #90a1cb;
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.action-control {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+button {
+    flex: 1;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #368ff4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 7px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#clear-btn {
+    background-color: #36374b;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#imc-number {
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+#imc-info {
+    font-size: 1.4rem;
+    color: #90a1cb;
+}
+
+#result-container h3 {
+    margin-top: 1rem;
+    color: #dfdfdf;
+    font-weight: 500;
+}
+
+#imc-table {
+    margin: 1.5rem 0;
+    font-size: 0.8rem;
+}
+
+.table-header {
+    font-weight: 500;
+    color: #90a1cb;
+}
+
+.table-header,
+.table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #373655;
+}
+
+.table-header h4,
+.table-data p {
+    flex: 1;
+    font-weight: 400;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+    max-width: 80px;
+}
+
+#back-btn {
+    align-self: center;
+}
+
+.good {
+    color: #12db77;
+}
+
+.low {
+    color: #e5db46;
+}
+
+.medium {
+    color: #e79040;
+}
+
+.high {
+    color: #e74040;
+}
