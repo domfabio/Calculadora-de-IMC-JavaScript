@@ -11,7 +11,7 @@
 
 ## 👨🏾‍💻 Desafio do Projeto
  
-<p>A primeira parte do desafio teve como objetivo trabalharmos com <strong>JavaScript Puro</strong>, e posteriormente aplicarmos o mesmo projeto com <strong>React.js</strong>, com a ideia de comparar o desenvolvimento em ambas as tecnologias e entender a preferência pelo uso de frameworks e bibliotecas em ambientes corporativos.</p>
+<p>A primeira parte do desafio teve como objetivo trabalharmos com <strong>JavaScript puro</strong>, e posteriormente aplicarmos o mesmo projeto com <strong>React.js</strong>, com a ideia de comparar o desenvolvimento em ambas as tecnologias e entender a preferência pelo uso de frameworks e bibliotecas em ambientes corporativos.</p>
 
 
 <br />
@@ -40,7 +40,7 @@
 
 ## 🔗 Projeto On-line
 Este projeto está disponível para visualização on-line. <br />
-Você pode acessá-lo através do link: https://iphone16-vert.vercel.app/
+Você pode acessá-lo através do link: https://calculadora-imc-js-eight.vercel.app/
 
 <br />
 
