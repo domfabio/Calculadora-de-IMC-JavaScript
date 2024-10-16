@@ -17,7 +17,9 @@
 <br />
 
 ## 📸 Screenshots
-![Captura de tela](./screen/screen.png)
+<p align="center">
+  <img src="./screen/screen-movie.gif" alt="Captura de tela" width="600" height="auto">
+</p>
 
 <br />
 
@@ -26,13 +28,16 @@
 - Inserção de dados por meio de Array de Objetos.
 - Validação da entrada de dados permitidos.
 - Apresentação das informações usando Switch/Case.
+- Limpeza de elementos do DOM.
+- Manipulação de classes CSS com JavaScript.
+- Interação com botões e formulários.
 
 
 <br />
 
 ## 🚀 Tecnologias Utilizadas
 
-- JavaScript (ES6)
+- JavaScript
 - HTML5
 - CSS3
 
